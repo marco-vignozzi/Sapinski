@@ -12,13 +12,15 @@ def get_mid_point(a, b):
 
 # initialize the figure
 width = 1000
-height = 1000
-start_fig = [(500, 333), (200, 800), (800, 800)]
+height = 900
+start_fig = [(500, 200), (200, 700), (800, 700)]
 background_color = c.colors_dict['black']
 
-# choose the starting point and the number of points to be drawn
+# choose the starting point, the color and the number of points to be drawn
+# if the color isn't in the "colors.py" module it'll be used randomized colors on every iteration
 start_pt = (560, 380)
 start_pt_color = c.colors_dict['white']
+color = 'lime'
 total_pt = 50000
 
 # instantiation of the new image and setting it up
@@ -28,16 +30,21 @@ for i in start_fig:
 
 image.putpixel(start_pt, start_pt_color)
 last_pt = start_pt
+if color in c.colors_dict:
+    color_used = c.colors_dict[color]
+else:
+    color = 'random'
 
 while total_pt != 0:
     # randomly choose a point and a color
     pick = start_fig[(r.randrange(0, 1001) % len(start_fig))]
-    color = c.colors_list[(r.randrange(0, 1001)) % len(c.colors_list)]
+    if color == 'random':
+        color_used = c.colors_list[(r.randrange(0, 1001)) % len(c.colors_list)]
 
-    # get the medium point with the random chosen one
+    # get the medium point of the distance with the random chosen one
     last_pt = get_mid_point(pick, last_pt)
 
-    image.putpixel(last_pt, color)
+    image.putpixel(last_pt, color_used)
 
     total_pt -= 1
 
