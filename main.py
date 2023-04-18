@@ -13,12 +13,11 @@ def get_mid_point(a, b):
 # initialize the figure
 width = 1000
 height = 1000
-# start_fig = [(500, 333), (200, 800), (800, 800)]
-start_fig = [(600, 200), (400, 200), (600, 800), (400, 800), (200, 500), (800, 500)]
+start_fig = [(500, 333), (200, 800), (800, 800)]
 background_color = c.colors_dict['black']
 
 # choose the starting point and the number of points to be drawn
-start_pt = (300, 500)
+start_pt = (560, 380)
 start_pt_color = c.colors_dict['white']
 total_pt = 50000
 
