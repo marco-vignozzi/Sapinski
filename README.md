@@ -1,6 +1,6 @@
 ### Introduction
 
-The file `main.py` is a program generating the Sapinski triangle, a _fractal_.
+This project provides a program generating the Sapinski triangle, a _fractal_.
 
 ### The Sapinski triangle
 The way it is obtained is of particular interest: 
@@ -12,11 +12,12 @@ drawn and the vertex chosen
 4. repeat the operation as much time as you want and you'll always obtain the fractal image
 
 ### Project files
-* **main.py**
+>**main.py**
 
-In the main program you can choose the _starting point_ and the number of _total points_ 
-drown by editing the attributes `start_pt` and `total_pt`. 
+This file contains the main program. 
+You can choose the _starting point_ and the number of _total points_ drown by editing 
+the attributes `start_pt` and `total_pt`. 
 
-* **colors.py**
+>**colors.py**
 
 This file contains a _dictionary_ and a _list_ with 9 colors.   
