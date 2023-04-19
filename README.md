@@ -41,7 +41,7 @@ ___
 start_pt = (560, 380)                       # set the position of the first point
 start_pt_color = c.colors_dict['white']     # set its color
 color = 'lime'                              # set the color for all others point
-total_pt = 10000                            # set the number of points to draw
+total_pt = 1000000                            # set the number of points to draw
 ```
 The result should look like this:
 
