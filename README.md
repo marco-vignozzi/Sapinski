@@ -1,10 +1,10 @@
 
 ## Introduction
 
-This project provides a program generating the Sapinski triangle, a _fractal_.
+This project provides a program generating the Sierpinski triangle, a _fractal_.
 ___
 
-## The Sapinski triangle
+## The Sierpinski triangle
 
 The way it is obtained is of particular interest: 
 1. start by drawing 3 points, the vertices of 
