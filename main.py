@@ -21,7 +21,7 @@ background_color = c.colors_dict['black']
 start_pt = (560, 380)
 start_pt_color = c.colors_dict['white']
 color = 'lime'
-total_pt = 50000
+total_pt = 20000
 
 # instantiation of the new image and setting it up
 image = img.new(mode="RGB", size=(width, height), color=background_color)

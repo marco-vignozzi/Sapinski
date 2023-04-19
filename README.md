@@ -11,7 +11,7 @@ a triangle
 drawn and the vertex chosen 
 4. repeat the operation as much time as you want and you'll always obtain the fractal image
 
-### Project files
+### Project info
 >**main.py**
 
 This file contains the main program. 
@@ -21,3 +21,6 @@ the attributes `start_pt` and `total_pt`.
 >**colors.py**
 
 This file contains a _dictionary_ and a _list_ with 9 colors.   
+
+### Required Modules
+The program makes use of the module `Pillow`
