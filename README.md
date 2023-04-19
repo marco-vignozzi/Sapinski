@@ -22,9 +22,9 @@ ___
 This file contains the main program. 
 You can choose the _starting point_ and the number of _total points_ drown by editing 
 the attributes `start_pt` and `total_pt`. You can also select a different _color_ 
-through the `color` attribute: the colors available are listed in the module `colors.py`.
-**If the color provided doesn't exist or no color is provided, every point
-will have a random color** from the ones of the module above mentioned.
+through the `color` attribute for a bunch of things: the colors available are listed 
+in the module `colors.py`. **If the color provided doesn't exist or no color is provided,
+every point will have a random color** from the ones of the module above mentioned.
 
 - **colors.py**
 
@@ -38,6 +38,7 @@ ___
 
 ## Example 
 ```python
+background_color = c.colors_dict['black']   # set the background color
 start_pt = (560, 380)                       # set the position of the first point
 start_pt_color = c.colors_dict['white']     # set its color
 color = 'lime'                              # set the color for all others point

@@ -14,10 +14,10 @@ def get_mid_point(a, b):
 width = 1000
 height = 900
 start_fig = [(500, 50), (50, 850), (950, 850)]
-background_color = c.colors_dict['black']
 
 # choose the starting point, the color and the number of points to be drawn
 # if the color isn't in the "colors.py" module it'll be used randomized colors on every iteration
+background_color = c.colors_dict['black']
 start_pt = (560, 380)
 start_pt_color = c.colors_dict['white']
 color = 'lime'
