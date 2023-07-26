@@ -1,7 +1,7 @@
 
 ## Introduction
 
-This project provides a program generating the ***Sierpinski triangle***, a _fractal_.
+This project provides a script generating the ***Sierpinski triangle***, a _fractal_.
 ___
 
 ## The Sierpinski triangle
